@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: quarkus-example
-          image: 'quay.io/sscaling/quarkus-example:latest'
+          image: 'image-registry.openshift-image-registry.svc:5000/quarkus-pipeline/quarkus-example:latest'
           resources: {}
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
